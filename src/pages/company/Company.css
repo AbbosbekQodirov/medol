@@ -1,0 +1,48 @@
+.company {
+    background-color: white;
+
+}
+
+.company_container {
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+    width: 70%;
+    margin-left: auto;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.814);
+    background: linear-gradient(#F5F5F5, #f5f5f500);
+}
+
+.company_img img {
+    width: 400px;
+    transform: scale(1.1);
+}
+
+.company_container>div:nth-child(1) {
+    margin-left: -300px;
+}
+
+.company_container div:nth-child(2) {
+    padding-left: 70px;
+    position: relative;
+}
+
+.company_btn {
+    margin-top: 30px;
+    padding: 10px 50px;
+    background: linear-gradient(90deg, #0D4C93, #00C9C9);
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    position: absolute;
+}
+.company_btn:hover {
+    background: linear-gradient(270deg, #0D4C93, #00C9C9);
+    cursor: pointer;
+}

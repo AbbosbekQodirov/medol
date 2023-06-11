@@ -1,0 +1,36 @@
+.partners{
+    background-color: white;
+}
+.partners_slide{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.partner{
+    width: 200px;
+    height: 90px;
+    border: 1px solid #999999;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper{
+    padding-bottom: 0px !important;
+    height: auto !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    transform: translateY(-55%);
+}
+.partners .swiper-button-prev{
+    left: 0px;
+}
+.partners .swiper-button-next {
+    right: 0px;
+}
+.partner img{
+    width: 60%;
+}

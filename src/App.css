@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+.container{
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App{
+  background: url("../public/assets/imgs/bg.png");
+  background-repeat: no-repeat !important;
+  background-size: 100%;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 0, 0, 0.077);
+  
+}
+
+.header_btn:hover {
+  background: linear-gradient(270deg, #0D4C93, #00C9C9);
+  cursor: pointer;
+}
+
+.scrollToTop-btn {
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s ease;
+  position: fixed;
+  border: 1px solid #317DB3;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  right: 0px;
+  bottom: 15px;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #317DB3;
+  font-size: 28px;
+  background-color: white;
+}
+
+.scrollToTop-btn:hover {
+  box-shadow: 0px 0px 10px 6px rgb(0, 36, 62);
+  font-size: 32px;
+}
+
+.scrollToTop-btn.active {
+  right: 20px;
+  opacity: 1;
+  right: 15px;
+}
+.downContainer{
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
