@@ -13,7 +13,7 @@ function HomePage() {
       <Products/>
       <Service/>
       <Company/>
-      <News/>
+      {/* <News/> */}
       <Partners/>
     </div>
   )
