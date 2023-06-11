@@ -34,7 +34,7 @@ function App() {
           <Route path="/news" element={<News />}></Route>
           <Route path="/feedback" element={<Partners />}></Route>
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
         <div
         onClick={() => {
           document.documentElement.scrollTop = 0;

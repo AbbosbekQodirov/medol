@@ -9,12 +9,12 @@ import Partners from './partners/Partners'
 function HomePage() {
   return (
     <div className='home_page'>
-      {/* <Header/> */}
-      {/* <Products/> */}
-      {/* <Service/> */}
-      {/* <Company/> */}
-      {/* <News/> */}
-      {/* <Partners/> */}
+      <Header/>
+      <Products/>
+      <Service/>
+      <Company/>
+      <News/>
+      <Partners/>
     </div>
   )
 }
